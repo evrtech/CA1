@@ -1,1 +1,2 @@
 20I-0586 - setupp files and did add and multiplication
+20I-2607 - added calculator functionality for divide and also updated test case for divide
