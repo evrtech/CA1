@@ -10,3 +10,8 @@ class TestCalculator(unittest.TestCase):
 
     def test_multi(self):
         self.assertEqual(self.calculator.multi(3, 4), 12)
+    
+    def test_divide(self):
+        self.assertEqual(self.calculator.divide(8, 2), 4)
+        with self.assertRaises(ValueError):
+            self.calculator.divide(6, 0)
