@@ -10,3 +10,8 @@ class Calculator:
             return x / y
         else:
             raise ValueError("Cannot divide by zero.")
+        
+
+    def subtract(number1, number2):
+        result = number1 - number2
+        return result
