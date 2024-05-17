@@ -15,3 +15,6 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calculator.divide(8, 2), 4)
         with self.assertRaises(ValueError):
             self.calculator.divide(6, 0)
+    
+    def test_subtract(self):
+        self.assertEqual(self.calculator.subtract(10, 5), 5)
